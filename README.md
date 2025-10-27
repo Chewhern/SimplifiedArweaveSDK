@@ -2,6 +2,8 @@ Simplified, minimalist and cryptographically secure Arweave SDK for C#
 
 **This is still a relatively new SDK, there may be bugs. I hope that this C# implementation can make the cryptographic related security more secure and more zero trust.**
 
+**It's still consider to be difficult to replicate the whole Arweave official SDK in C#. Only very minimal and core features were replicated.**
+
 # Credentials Handling (Loading RSA key parameter from file)
 If the C# application runs on VPS hosting's environment, if the hosting's environment can be trusted, then the RSA key can be loaded into the library in **binary** manner by using **File.ReadAllBytes()**.
 
