@@ -4,6 +4,8 @@ Simplified, minimalist and cryptographically secure Arweave SDK for C#
 
 **It's still consider to be difficult to replicate the whole Arweave official SDK in C#. Only very minimal and core features were replicated.**
 
+**Important: As the HTTP API endpoint is using arweave.net, the developer will be required to check the submission status of transaction via viewblock (https://viewblock.io/arweave/address/{Arweave_Wallet_Address}**
+
 # Credentials Handling (Loading RSA key parameter from file)
 If the C# application runs on VPS hosting's environment, if the hosting's environment can be trusted, then the RSA key can be loaded into the library in **binary** manner by using **File.ReadAllBytes()**.
 
