@@ -6,3 +6,6 @@ Slightly modified **ArweaveSecureCreateAndPostDataHelper** so that the values re
 
 # Version 0.0.3
 Added StatusCode inside **UploadDataHelper**, it might be better to help developers to check if their transactions go through..
+
+# Version 0.0.5
+Slightly modified **ArweaveSecureCreateAndPostDataHelper** and **CurrentRSAOpsHelper** so that developers can choose when to secure clear RSA key.
